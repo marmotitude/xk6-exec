@@ -53,7 +53,7 @@ func (*EXEC) Command(name string, args []string, option CommandOptions) string {
 	}
 	out, err := cmd.Output()
 	if err != nil {
-		log.Fatal(err.Error() + " on command: " + name + " " + strings.Join(args, " "))
+		log.Print(err.Error() + " on command: " + name + " " + strings.Join(args, " "))
 	}
 	return string(out)
 }
