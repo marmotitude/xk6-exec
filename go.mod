@@ -1,4 +1,4 @@
-module github.com/eznd-go/xk6-exec
+module github.com/marmotitude/xk6-exec
 
 go 1.19
 
